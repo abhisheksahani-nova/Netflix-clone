@@ -1,14 +1,14 @@
 .banner {
   color: white;
-  object-fit: contain;
+  width: 100%;
   height: 37rem;
   margin-bottom: 2rem;
 }
 
 .banner_contents {
   margin-left: 2rem;
-  padding-top: 330px;
-  height: 190px;
+  padding-top: 20.625rem;
+  height: 11.875rem;
 }
 
 .banner_title {
@@ -30,7 +30,7 @@
   outline: none;
   border: none;
   font-weight: 700;
-  border-radius: 0.2vw;
+  border-radius: 3px;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-right: 1rem;
@@ -53,4 +53,29 @@
     rgba(37, 37, 37, 0.61),
     #111
   );
+}
+
+@media only screen and (max-width: 43.75rem) {
+  .banner {
+    width: 100%;
+    height: 16rem;
+  }
+
+  .banner_contents {
+    margin-left: 1.3rem;
+    padding-top: 8.8rem;
+  }
+
+  .banner_title {
+    font-size: 1.4rem;
+  }
+
+  .banner_description {
+    width: 75 %;
+    font-size: 0.5rem;
+  }
+
+  .banner_button {
+    padding: 0.3rem 0.8rem;
+  }
 }
