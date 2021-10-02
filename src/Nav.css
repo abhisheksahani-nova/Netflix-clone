@@ -13,16 +13,34 @@
 .netflix-logo {
   height: 5rem;
   object-fit: contain;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .avatar-logo {
-  width: 28px;
-  height: 28px;
-  margin-top: 20px;
-  margin-right: 25px;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 1.25rem;
+  margin-right: 1.563rem;
 }
 
 .nav_black {
   background-color: #111;
+}
+
+@media only screen and (max-width: 43.75rem) {
+  .nav {
+    height: 3rem;
+  }
+
+  .netflix-logo {
+    height: 4rem;
+    margin-left: 0.8rem;
+  }
+
+  .avatar-logo {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 1.1rem;
+    margin-top: 1.4rem;
+  }
 }
