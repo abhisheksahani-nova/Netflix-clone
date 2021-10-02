@@ -3,6 +3,10 @@
   color: white;
 }
 
+.title {
+  color: white;
+}
+
 .row_posters {
   display: flex;
   overflow-y: hidden;
@@ -17,8 +21,8 @@
 .row_poster {
   width: 100%;
   object-fit: contain;
-  max-height: 100px;
-  margin-right: 10px;
+  max-height: 10rem;
+  margin-right: 14px;
   transition: transform 450ms;
 }
 
@@ -27,9 +31,29 @@
 }
 
 .row_posterLarge {
-  max-height: 250px;
+  max-height: 15.625rem;
+  width: 100%;
+  object-fit: contain;
+  margin-right: 14px;
+  transition: transform 450ms;
 }
 
 .row_posterLarge:hover {
   transform: scale(1.09);
+}
+
+@media only screen and (max-width: 43.75rem) {
+  .row_posterLarge {
+    max-height: 13rem;
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .row_poster {
+    max-height: 8.7rem;
+    margin-right: 10px;
+  }
 }
