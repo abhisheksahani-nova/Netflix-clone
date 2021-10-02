@@ -1,12 +1,13 @@
 .banner {
   color: white;
   object-fit: contain;
-  height: 448px;
+  height: 37rem;
+  margin-bottom: 2rem;
 }
 
 .banner_contents {
-  margin-left: 30px;
-  padding-top: 180px;
+  margin-left: 2rem;
+  padding-top: 330px;
   height: 190px;
 }
 
@@ -17,7 +18,7 @@
 }
 
 .banner_description {
-  width: 45rem;
+  width: 55%;
   line-height: 1.3;
   padding-top: 1rem;
   font-size: 0.8rem;
@@ -45,7 +46,7 @@
 }
 
 .banner_fadeBottom {
-  height: 5rem;
+  height: 16.4rem;
   background-image: linear-gradient(
     180deg,
     transparent,
