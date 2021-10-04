@@ -17,10 +17,37 @@
   padding-bottom: 0.3rem;
 }
 
+.line-1 {
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 .banner_description {
   width: 55%;
   line-height: 1.3;
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 0.8rem;
 }
 
@@ -69,7 +96,7 @@
   }
 
   .banner_title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .banner_description {
@@ -79,8 +106,9 @@
   }
 
   .banner_button {
-    padding: 0.3rem 0.8rem;
+    padding: 0.3rem 0.6rem;
     text-align: center;
+    font-size: 0.6rem;
   }
 
   .banner_fadeBottom {
