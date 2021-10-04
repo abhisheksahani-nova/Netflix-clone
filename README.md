@@ -2,6 +2,10 @@
 
 Build the clone of Netflix movie streaming app.
 
+## Live Project Link
+
+Click here - 👉👉👉 https://netflix-clone-256b0.web.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
